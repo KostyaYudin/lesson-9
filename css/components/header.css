@@ -1,0 +1,65 @@
+header {
+    padding: 30px 0;
+    background-color: var(--main-bg-color)
+}
+
+header input {
+    display: none;
+}
+
+header nav {
+    background-color: rgb(51, 50, 50);
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+
+header nav a:hover {
+    background-color: var(--first-color);
+}
+
+header nav ul:not(.dropdown) {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+header nav ul li ul.dropdown {
+    display: none;
+    position: absolute;
+    width: 100%;
+}
+
+header nav ul:not(.dropdown) li {
+    position: relative;
+}
+
+header nav ul li:hover ul.dropdown {
+    top: 100%;
+    display: block;
+}
+
+header nav ul.dropdown li {
+    background-color: rgb(56, 55, 55);
+}
+
+header nav ul.dropdown li a {
+    display: inline-block;
+    width: 100%;
+    text-align: center;;
+}
+
+ 
+
+
+
+
+
+

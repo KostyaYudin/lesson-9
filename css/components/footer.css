@@ -1,0 +1,31 @@
+footer{
+    margin-top: 100px;
+    padding: 20px 0;
+    font-size: 12px;
+    background-color: rgb(36, 36, 36);
+    color: rgb(107, 107, 107);
+}
+
+footer .to-start a{
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: var(--first-color);
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+    list-style: none;
+    
+    position: fixed;
+    right: 20px;
+    bottom: 10px;
+    
+}
+
+footer .to-start a:hover{
+    background-color: #fff;
+    color: var(--first-collor)
+}
